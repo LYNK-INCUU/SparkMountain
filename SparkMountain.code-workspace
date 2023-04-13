@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "SparkMountain @ 0f6763f",
+			"uri": "gitlens://7b22726566223a2230663637363366343538313835313139636166636635343336306363623738633762636336613336222c227265706f50617468223a22633a2f55736572732f4b6169726f7a752f446f63756d656e74732f536f66747761726520446576656c6f7065722032303232202d20323032332f506572696f646520332f414c4120537061726b4d6f756e7461696e2f537061726b4d6f756e7461696e227d/c:/Users/Kairozu/Documents/Software Developer 2022 - 2023/Periode 3/ALA SparkMountain/SparkMountain?{\"ref\":\"0f6763f\"}"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "SparkMountain"
+	}
+}

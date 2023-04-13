@@ -41,6 +41,9 @@
         font-family: 'Langar', cursive;
         background-image: url("../images/imgowo.jpg");
         background-size: cover;
+				  font-size: 16px;
+		  line-height: 1.5;
+		  color: #f5efef;
     }
 	
 	img{
@@ -112,4 +115,36 @@
             color: #fff;
 		}
         		
+		body {
+		  font-family: Arial, sans-serif;
+
+		}
+
+		a {
+		  text-decoration: none;
+		  color: #fcf9f9;
+		}
+
+		nav ul {
+		  list-style: none;
+		  display: flex;
+		  justify-content: space-between;
+		  align-items: center;
+		}
+
+		nav ul li {
+		  margin-right: 1rem;
+		}
+
+		nav ul li:last-child {
+		  margin-right: 0;
+		}
+
+		nav ul li a {
+		  font-weight: bold;
+		}
+
+		main {
+		  max-width: 2200px;
 		
+		}

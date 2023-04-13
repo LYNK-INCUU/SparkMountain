@@ -13,7 +13,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
     var i;
-    var slides = document.getElementsByClassName("mySlides");
+    var slides = document.getElementsByClassName("slide");
     var dots = document.getElementsByClassName("dot");
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
@@ -26,12 +26,12 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
 }
-// Auto Slide   if you need auto slide ,remove the commit "//"
+// Auto Slide   | rmv commit "//"
 var slideIndex = 0;
 showSlides();
 function showSlides() {
     var i;
-    var slides = document.getElementsByClassName("mySlides");
+    var slides = document.getElementsByClassName("slide");
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
