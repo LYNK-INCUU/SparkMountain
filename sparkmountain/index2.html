@@ -1,13 +1,23 @@
+<?php
+session_start()
+
+$host = "localhost";
+$user = "root";
+$password = "";
+$dbname = "energy";
+$conn = mysqli_connect($host, $user, $password, $dbname);
+?>
+
+
 <!doctype html>
 <html lang="en">
 
 <head>
   <title>Spark Mountain</title>
-  <!-- Required meta tags -->
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS v5.3.0 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     <link rel="javascript" href="js/script.js">
@@ -23,7 +33,7 @@
             <section class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active"><a class="nav-link" href="index.html">Home <span class="sr-only"></span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="pagina2.html">Evenementen</a></li>
+                    <li class="nav-item"><a class="nav-link" href="evenementen.html">Evenementen</a></li>
                     <li class="nav-item"><a class="nav-link" href="#.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#.html">Contact</a></li>
                     <li class="nav-item"><a class="nav-link disabled" href="#">Services</a></li>
@@ -74,9 +84,10 @@
 </section>
 <section class="container">
 		<section class="text-box">
-			<h2>Article Title</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at accumsan purus. Sed vel felis felis. Nunc id enim ut justo consequat sodales a ac est. Fusce commodo lorem eu purus luctus fermentum.</p>
-			<a href="#">Read More</a>
+			<h2>"Spark Mountain: The Energy Boost You Need to Conquer the Day!"</h2>
+      <p>Spark Mountain is the latest energy drink sensation to hit the market. Packed with caffeine, taurine, and a blend of B-vitamins, Spark Mountain promises to provide a powerful energy boost that will keep you going all day long.
+      Our unique formula is designed to enhance mental clarity, focus, and productivity, so you can tackle any task with ease. Whether you're a busy professional, a college student, or an athlete in training, Spark Mountain is the perfect way to get the energy you need to perform at your best.
+      And with a delicious fruity taste that's both refreshing and invigorating, Spark Mountain is the perfect pick-me-up anytime you need a quick energy boost. So why settle for an ordinary energy drink when you can experience the mountain of energy that is Spark Mountain? Try it today and discover the difference for yourself!"</p>			<a href="#">Read More</a>
       <img class="image" src="https://via.placeholder.com/100x100" alt="Article Image">
 		</section>
 	</section>
