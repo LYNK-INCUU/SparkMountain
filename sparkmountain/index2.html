@@ -39,7 +39,9 @@ $conn = mysqli_connect($host, $user, $password, $dbname);
                     <li class="nav-item"><a class="nav-link disabled" href="#">W.I.P</a></li>
                 </ul>
             </section>
-            <section><button type="button" class="btn btn-warning">Login</button></section>
+            <form method="post" action="index.php">
+              <input type="submit" value="Login">
+          </form>
         </section>
     </nav>
   </header>
